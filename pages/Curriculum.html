@@ -1,28 +1,41 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angel Soto Boullosa - Ingeniero HW/SW</title>
+    <link href="../styles/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
     <header>
-        <link href="../styles/style.css" rel="stylesheet" type="text/css">
         <nav>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="Curriculum.html">Curriculum</a></li>
-
             </ul>
         </nav>
     </header>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <head>
-        <title>Angel Soto Boullosa</title>
-    </head>
-    <body>
-        <h1 align="center">Angel Soto Boullosa</h1>
-        <p align="center"><strong>Hardware (HW) and Software (SW) Engineer</strong></p>
-        <hr>
-        <h2 align="center"><i>Resumen</i></h2>
-        <p>Este es mi Curriculum</p>
-        <embed src="../files/CV.pdf" type="application/pdf" width="100%" height="600px" />
-    </body>
+    
+    <main>
+        <section class="intro">
+            <h1>Angel Soto Boullosa</h1>
+            <p><strong>Ingeniero de Hardware (HW) y Software (SW)</strong></p>
+        </section>
+        
+        <section class="cv">
+            <h2>Mi Curriculum</h2>
+            <p>Puedes visualizarlo o descargarlo a continuación:</p>
+            
+            <div class="pdf-container">
+                <iframe src="../files/CV.pdf" width="80%" height="400px"></iframe>
+            </div>
+            
+            <a href="../files/CV.pdf" download class="btn">Descargar CV</a>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Angel Soto Boullosa</p>
+    </footer>
+</body>
 </html>
