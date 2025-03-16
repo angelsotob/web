@@ -42,7 +42,7 @@ header {
   box-shadow: 0px 4px 2px -2px gray; /* Adds a shadow under the header */
 }
 
-/* Contenedor de las banderas */
+/* Language selector container */
 .language-selector {
   position: absolute;
   top: 10px;
@@ -52,7 +52,7 @@ header {
   gap: 8px;
 }
 
-/* Tamaño de las banderas en pantallas grandes */
+/* Flag size on larger screens */
 .language-selector .flag {
   width: 24px;
   height: auto;
@@ -60,12 +60,12 @@ header {
   transition: transform 0.2s ease-in-out;
 }
 
-/* Efecto al pasar el cursor */
+/* Hover effect */
 .language-selector .flag:hover {
   transform: scale(1.1);
 }
 
-/* Ajuste de tamaño en móviles */
+/* Adjustments for mobile screens */
 @media (max-width: 768px) {
   .language-selector {
       top: 5px;
@@ -74,7 +74,7 @@ header {
   }
 
   .language-selector .flag {
-      width: 18px;  /* Bandera más pequeña */
+      width: 18px;  /* Smaller flag size */
   }
 }
 
